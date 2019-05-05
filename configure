@@ -193,7 +193,7 @@ rm -f $test.c $test.o
 if test "$gccish" -ne 0
 then
     CC="${CC-$cc}"
-    CFLAGS="${CFLAGS--O2 -Wall -Wextra}"
+    CFLAGS="${CFLAGS--O2 -Wall -Wextra -S WASM=1}"
 else
     CC="${CC-cc}"
     CFLAGS="${CFLAGS--O}"
