@@ -1,6 +1,6 @@
 [package]
 name = "optipng"
-version = "0.1.0"
+version = "0.1.2"
 description = "OptiPNG is a PNG optimizer that recompresses image files to a smaller size, without losing any information"
 readme = "README.md"
 repository = "https://github.com/wapm-packages/optipng"
